@@ -1,0 +1,9 @@
+/.idea
+node_modules
+dist
+elm-stuff
+dist-ssr
+
+.DS_Store
+*.local
+*.iml
