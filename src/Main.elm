@@ -14,7 +14,7 @@ import VitePluginHelper
 main =
     div
         [ class "min-h-screen flex flex-col justify-center items-center bg-[#121212] border-2 border-gray-800" ]
-        [ svg [ viewBox "-200 -200 900 700", HA.attribute "xmlns" "http://www.w3.org/2000/svg" ]
+        [ svg [ viewBox "-500 -350 1500 1000", HA.attribute "xmlns" "http://www.w3.org/2000/svg" ]
             [ defs []
                 [ linearGradient
                     [ id "paint_gradient"
