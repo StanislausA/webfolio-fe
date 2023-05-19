@@ -8,3 +8,4 @@ dist-ssr
 .DS_Store
 *.local
 *.iml
+notes.md
