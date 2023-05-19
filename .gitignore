@@ -3,6 +3,7 @@ node_modules
 dist
 elm-stuff
 dist-ssr
+.env
 
 .DS_Store
 *.local
