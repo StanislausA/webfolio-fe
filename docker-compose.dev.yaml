@@ -4,7 +4,7 @@ services:
   webfolio-app:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: Dockerfile.dev
     volumes:
       - .:/webfolio-app
       - /webfolio-app/node_modules
