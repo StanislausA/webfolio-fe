@@ -1,13 +1,13 @@
 version: '3.8'
 
 services:
-  webfolio-app:
+  webfolio:
     build:
       context: .
       dockerfile: Dockerfile.dev
     volumes:
-      - .:/webfolio-app
-      - /webfolio-app/node_modules
+      - .:/app
+      - /app/node_modules
     ports:
       - "3000:3000"
     environment:

@@ -2,7 +2,7 @@
 FROM node:14-alpine as dev-stage
 LABEL authors="anthony"
 
-WORKDIR /webfolio-app
+WORKDIR /app
 
 COPY ["package.json", "elm*.json", "./"]
 
