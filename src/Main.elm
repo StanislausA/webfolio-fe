@@ -23,6 +23,6 @@ main =
                     []
                 ]
             ]
-        , div [ class "grow w-full border-2 border-orange-600" ]
-            []
+        , div [ class "flex justify-center items-center grow w-full text-slate-300 text-5xl" ]
+            [ text "Under Construction..." ]
         ]
