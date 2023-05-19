@@ -7,6 +7,10 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+        "custom": ["Philosopher-Regular"],
+        "sans": ["Proxima\\ Nova", "Open\\ Sans"]
+    }
   },
   plugins: [],
   variants: {},
