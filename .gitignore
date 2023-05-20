@@ -1,8 +1,11 @@
 node_modules
 dist
 elm-stuff
+.firebase
 dist-ssr
 .env
+.firebaserc
+*.log
 
 /.idea
 .DS_Store

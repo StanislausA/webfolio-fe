@@ -1,10 +1,13 @@
 node_modules
 dist
 elm-stuff
+.firebase
 dist-ssr
-.env
 Dockerfile*
 docker-compose*
+.firebaserc
+.env
+*.log
 
 /.idea
 .DS_Store
