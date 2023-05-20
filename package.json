@@ -10,9 +10,11 @@
     "prebuild": "elm-tooling install",
     "build": "vite build",
     "serve": "vite preview",
+    "serve:f": "firebase serve",
     "lint": "elm-review",
     "lint:fix": "elm-review --fix",
-    "test": "elm-test-rs"
+    "test": "elm-test-rs",
+    "deploy": "firebase deploy"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
