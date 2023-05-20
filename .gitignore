@@ -3,16 +3,17 @@ dist
 elm-stuff
 dist-ssr
 
-cypress/screenshots
-cypress/videos
-.firebase
-.firebaserc
-.env
-*.log
-cypress.env.json
-
 .idea
 .DS_Store
 *.local
 *.iml
 notes.md
+
+cypress/screenshots
+cypress/videos
+cypress/support/utility.js
+cypress.env.json
+.firebase
+.firebaserc
+.env
+*.log

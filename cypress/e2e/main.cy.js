@@ -1,5 +1,8 @@
 /// <reference types="cypress" />
 
+import { parseCounterString } from "../support/utility";
+
+
 describe("example to-do app", () => {
   beforeEach(() => {
     cy.visit("/");
@@ -42,9 +45,3 @@ describe("example to-do app", () => {
       });
   });
 });
-
-function parseCounterString(text, isNum = false) {
-    const int = parseInt(text.split(": ").at(-1));
-    if (isNum) return Number.isInteger(int);
-    else return int;
-}

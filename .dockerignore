@@ -3,18 +3,19 @@ dist
 elm-stuff
 dist-ssr
 
+.idea
+.DS_Store
+*.local
+*.iml
+notes.md
+
 cypress/screenshots
 cypress/videos
+cypress/support/utility.js
+cypress.env.json
 .firebase
 .firebaserc
 .env
 *.log
 Dockerfile*
 docker-compose*
-cypress.env.json
-
-.idea
-.DS_Store
-*.local
-*.iml
-notes.md

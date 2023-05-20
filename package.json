@@ -6,15 +6,17 @@
   "license": "MIT",
   "scripts": {
     "postinstall": "elm-tooling install",
-    "dev": "vite",
     "prebuild": "elm-tooling install",
     "build": "vite build",
+    "dev": "vite",
     "serve": "vite preview",
-    "serve:f": "firebase serve",
+    "serve:fbs": "firebase serve",
     "deploy": "firebase deploy",
     "lint": "elm-review",
     "lint:fix": "elm-review --fix",
-    "test": "elm-test-rs"
+    "test": "elm-test-rs",
+    "test:cyr": "cypress run",
+    "test:cyo": "cypress open"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
