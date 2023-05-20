@@ -11,6 +11,7 @@
     "build": "vite build",
     "serve": "vite preview",
     "lint": "elm-review",
+    "lint:fix": "elm-review --fix",
     "test": "elm-test-rs"
   },
   "devDependencies": {
