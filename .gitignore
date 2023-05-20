@@ -1,10 +1,10 @@
-/.idea
 node_modules
 dist
 elm-stuff
 dist-ssr
 .env
 
+/.idea
 .DS_Store
 *.local
 *.iml

@@ -1,10 +1,12 @@
-/.idea
 node_modules
 dist
 elm-stuff
 dist-ssr
 .env
+Dockerfile*
+docker-compose*
 
+/.idea
 .DS_Store
 *.local
 *.iml
