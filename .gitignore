@@ -1,13 +1,17 @@
 node_modules
 dist
 elm-stuff
-.firebase
 dist-ssr
-.env
-.firebaserc
-*.log
 
-/.idea
+cypress/screenshots
+cypress/videos
+.firebase
+.firebaserc
+.env
+*.log
+cypress.env.json
+
+.idea
 .DS_Store
 *.local
 *.iml

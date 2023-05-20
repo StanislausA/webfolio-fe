@@ -11,13 +11,14 @@
     "build": "vite build",
     "serve": "vite preview",
     "serve:f": "firebase serve",
+    "deploy": "firebase deploy",
     "lint": "elm-review",
     "lint:fix": "elm-review --fix",
-    "test": "elm-test-rs",
-    "deploy": "firebase deploy"
+    "test": "elm-test-rs"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",
+    "cypress": "^12.12.0",
     "elm-review": "^2.10.2",
     "elm-tooling": "^1.14.0",
     "postcss": "^8.4.23",

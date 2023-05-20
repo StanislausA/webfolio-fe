@@ -101,7 +101,9 @@ baseHtml countState =
                 [ class "flex justify-end items-center gap-3" ]
                 [ figcaption [ class "text-slate-300" ] [ text "Built with Elm" ]
                 , img
-                    [ src <| VitePluginHelper.asset "/src/assets/logo.png", class "w-11" ]
+                    [ src <| VitePluginHelper.asset "/src/assets/logo.png"
+                    , class "w-11"
+                    ]
                     []
                 ]
             ]
@@ -112,7 +114,7 @@ baseHtml countState =
                 [ text "Under Construction..." ]
             , div [ class "shrink w-1/4 border-2 border-teal-500" ] []
             ]
-        , div [ class "flex justify-start items-center h-16 w-full pl-11 text-slate-300 text-lg" ]
+        , div [ class "counter flex justify-start items-center h-16 w-full pl-11 text-slate-300 text-lg" ]
             [ text <| "visitor count: " ++ countState ]
         ]
 

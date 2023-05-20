@@ -1,15 +1,19 @@
 node_modules
 dist
 elm-stuff
-.firebase
 dist-ssr
-Dockerfile*
-docker-compose*
+
+cypress/screenshots
+cypress/videos
+.firebase
 .firebaserc
 .env
 *.log
+Dockerfile*
+docker-compose*
+cypress.env.json
 
-/.idea
+.idea
 .DS_Store
 *.local
 *.iml
